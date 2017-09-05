@@ -4,6 +4,7 @@ A login system with email verification password reset and avatar upload.  UI by 
 before using it create your database and make sure to make changes in php files as per your database 
 or heres the sql code u need to run so as to create the database(which i created)
 
+```
 CREATE DATABASE accounts;
 
 CREATE TABLE `accounts`.`users` 
@@ -18,3 +19,4 @@ CREATE TABLE `accounts`.`users`
     `imagelocation` VARCHAR(100) NOT NULL,
 PRIMARY KEY (`id`) 
 );
+```
